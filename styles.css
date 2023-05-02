@@ -1,0 +1,113 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/*Nav section*/
+header {
+    height: 150px;
+    overflow: hidden;
+    background-image: url(/Images/michelin3.webp);
+    background-position: bottom;
+    background-size: cover;
+}
+
+nav {
+    background-color: rgb(58, 56, 56);
+    color: rgb(255, 241, 223);
+    height: 50px;
+}
+
+
+.nav {
+    display: flex;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+.title {
+    padding: 10px;
+    margin: 0
+}
+
+/*main*/
+.midSection {
+    display: flex;
+}
+
+.midsection>article {
+    width: 50%;
+}
+
+.mainText {
+    padding: 20px;
+}
+
+.mainImage {
+    width: 90%;
+    margin: 20px 20px 0 20px;
+    padding: 10px;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    background-color: rgb(58, 56, 56);
+    color: rgb(255, 241, 223);
+    height: 200px;
+}
+
+.footer {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header {
+    height: 150px;
+    overflow: hidden;
+    background-image: url(Images/michelin3.webp);
+    background-position: bottom;
+    background-size: cover;
+}
+
+/*Contact us columns*/
+.column {
+    float: left;
+    width: 30%;
+    left padding: 10%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Booking form*/
+.form {
+    line-height: 2em;
+    margin-left: 25%;
+}
+
+/*Thank you page*/
+.thankyoumain {
+    text-align: center;
+}
