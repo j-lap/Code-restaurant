@@ -10,10 +10,11 @@ html {
 header {
     height: 150px;
     overflow: hidden;
-    background-image: url(/Images/michelin3.webp);
+    background-image: url(Images/michelin3.webp);
     background-position: bottom;
     background-size: cover;
 }
+
 
 nav {
     background-color: rgb(58, 56, 56);
@@ -78,14 +79,6 @@ footer {
 .footer {
     padding: 20px;
     margin: 0 auto;
-}
-
-header {
-    height: 150px;
-    overflow: hidden;
-    background-image: url(Images/michelin3.webp);
-    background-position: bottom;
-    background-size: cover;
 }
 
 /*Contact us columns*/
