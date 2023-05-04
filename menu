@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Food Menu</title>
+</head>
+<body>
+    <h1>Code Restaurant Food Menu </h1>
+    <div>
+        <div class = "cover">
+        <div class = "box">
+            <img src = "Cheeseburger2.jpg" alt= "picture of a cheeseburger" class="foodimage">
+            <h2>Cheeseburger</h2>
+            <p> Cheeseburger with organic beef</p>
+            </div>
+        </div>
+        <div class = "box">
+            <img src = "pizza.jpg" alt= "picture of a pizza" class="foodimage">
+            <h2>Pizza</h2>
+            <p>This is a margherita pizza<p>
+                </div>
+        <div class = "box">
+            <img src= "salmon.jpg" alt= "picture of salmon" class="foodimage">
+            <h2>Fish</h2>
+            <p>Salmon with vegetables</p>
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+CSS
+* {
+    box-sizing: border-box;
+}
+
+
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 1px;
+}
+.box img {
+    max-width: 300px;
+    max-height: 200px;
+}
