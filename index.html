@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,38 +7,60 @@
     <title>Code Restaurant</title>
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link 
+href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" 
+rel="stylesheet">
 </head>
-
 <body>
-    <nav class="nav">
-        <h1 class="title">CODE</h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="booking.html">Booking</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    
+        <nav class="nav">
+            <h1 class="title">CODE</h1>
+            <ul>
+                <li><a>Menu</a></li>
+                <li><a>Booking</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </nav>
     <header>
     </header>
     <main>
         <section class="midSection">
             <article class="mainText">
-                <h2>Our Food</h2>
-                <p>Our menu is shaped by the seasons. We serve creative
-                    plates which combine great produce with a splash
-                    of imagination.
-                </p>
+              <h2>Our Food</h2>
+              <p>Our menu is shaped by the seasons. We serve creative
+                plates which combine great produce with a splash
+                of imagination. 
+              </p>
+              <p>
+               Our dishes are designed to be shared and are 
+               inspired by great food from across the globe. We 
+               have a passion for sustainability so we use ingredients
+               which are sourced locally and in season. 
+              </p>
             </article>
-            <article>
-                <img src="Images/michelin1.jpeg" class="mainImage">
+            <article class="mainImage">
+                <img src="Images/michelin1.jpeg">
             </article>
         </section>
+        <section class="button">
+            <button onClick="newsletter()">Sign up to our newsletter!</button>
+            <p id="signUp"></p>
+        </section>
+   
+    <script>
+        const newsletter = () => {
+            let text;
+            let email = prompt("Please enter your email:",
+            "Joe.bloggs@hotmail.com");
+            if (email==null || email == "") {
+                text = "Email not entered, please try again." 
+            } else {
+                text = "Thank you for singing up!"
+            }
+            document.getElementById("signUp").innerHTML = text;
+        }
+    </script>
     </main>
     <footer>
         <section class="footer">
@@ -59,5 +80,4 @@
         </section>
     </footer>
 </body>
-
 </html>
