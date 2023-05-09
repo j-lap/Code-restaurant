@@ -37,6 +37,10 @@ nav li {
     text-decoration: none;
     color: white;
 }
+a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
 
 nav ul {
     position: absolute;
