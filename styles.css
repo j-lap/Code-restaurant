@@ -104,3 +104,113 @@ footer {
 .thankyoumain {
     text-align: center;
 }
+
+/*Responsiveness*/
+
+/*phones*/
+@media only screen and (max-width: 420px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    nav a {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+    nav li {
+        margin: 0 3px;
+    }
+    button {
+        font-size: 0.8rem;
+        padding: 1px;
+    }
+    .button {
+        text-align: center;
+        margin: 5px;
+    }
+    .midSection {
+        display: block;
+    }
+
+    .mainImage {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+   
+    .mainImage img {
+        max-width: 300px;
+    }
+
+    .mainText {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    footer {
+       font-size: 0.7rem;
+        margin: 5px;
+        justify-content: center;
+    }
+    .footer {
+        padding: 3px;
+        margin: 3px;
+    }
+}
+
+/*medium size screens*/
+@media only screen and (min-width: 1000px) and (max-width: 1499px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    nav a {
+        font-size: 2rem;
+        padding: 30px;
+    }
+    nav {
+        height: 80px;
+    }
+    p {
+        font-size: 1.8rem;
+        
+    }
+    .mainText h2 {
+        font-size: 2rem;
+    }
+    .mainText {
+        margin: 30px;
+        padding: 20px;
+    }
+}
+
+/*large screens*/
+@media only screen and (min-width: 1500px) {
+    h1 {
+        font-size: 3rem;
+    }
+    nav a {
+        font-size: 2.5rem;
+        padding: 30px;
+    }
+    nav {
+        height: 80px;
+    }
+    p {
+        font-size: 2rem;
+    }
+    .mainText h2 {
+        font-size: 2rem;
+    }
+    .mainText {
+        padding: 150px;
+    }
+    .midSection {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainImage img {
+        max-width: 600px;
+    }
+
+}
