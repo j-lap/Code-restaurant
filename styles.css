@@ -71,6 +71,16 @@ nav ul {
     max-width: 400px;
 }
 
+/*landing page*/
+button {
+    font-size: 1.5rem;
+    padding: 3px;
+}
+.button {
+    text-align: center;
+    margin: 20px;
+}
+
 /*footer*/
 footer {
     display: flex;
