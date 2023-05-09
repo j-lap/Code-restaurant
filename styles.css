@@ -247,8 +247,7 @@ margin-bottom: 20px;
         height: 80px;
     }
     p {
-        font-size: 1.8rem;
-        
+        font-size: 1.8rem;  
     }
     .mainText h2 {
         font-size: 2rem;
@@ -288,3 +287,7 @@ margin-bottom: 20px;
     .mainImage img {
         max-width: 600px;
     }
+    footer {
+        height: 300px;
+    }
+}
