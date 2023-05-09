@@ -104,3 +104,66 @@ footer {
 .thankyoumain {
     text-align: center;
 }
+
+/*Menu Page*/
+.main {
+    width: 1170px;
+    margin: 100px auto;
+}
+.single-menu img {
+      max-width: 200px;
+    max-height: 200px;
+    object-fit: scale-down;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 80px;
+    position:relative;
+    display:inline-block;
+    font-size: 24px;
+}
+.menu {
+display:flex;
+justify-content: space-between
+flex-wrap: wrap;
+}
+
+.menu-column {
+    width:33.3%;
+}
+
+.menu-column h3 {
+    text-transform:capitlize;
+    text-align: float;
+    font-size: 40px;
+    font-weight: 500px;
+margin-bottom: 20px;
+}
+
+.single-menu {
+    display:flex;
+    align-items: center;
+    margin-right: 21px;
+}
+.single-menu img {
+    border-radius: 50%;
+    max-width:200px;
+    border: 1px dashed #ddd;
+    padding: 3px;
+    margin-right: 50px;
+    transition: .3s;
+}
+.single-menu .menu-content {
+    font-size: 20px;
+    font-weight: 100;
+
+}
+.single-menu .menu-content h4 {
+    font-size: 20px;
+    font-weight: 300px;
+
+}
+.single-menu:hover img {
+    transform:rotate(360 deg);
+
+}
