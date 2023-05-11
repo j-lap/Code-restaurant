@@ -117,6 +117,10 @@ footer {
     margin-left: 25%;
 }
 
+fieldset {
+    width:35%
+}
+
 /*Thank you page*/
 .thankyoumain {
     text-align: center;
@@ -235,6 +239,10 @@ margin-bottom: 20px;
     .footer {
         padding: 3px;
         margin: 3px;
+    }
+    fieldset {
+        width: 100%;
+        margin: 10px auto;
     }
 }
 
